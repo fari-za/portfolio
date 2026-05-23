@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Téléphone",
-      value: "Sur demande",
-      href: "#",
+      value: "+33 7 65 74 95 22",
+      href: "tel:+33765749522",
     },
     {
       icon: MapPin,
@@ -36,7 +36,7 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Contactez-moi</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-4" />
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter !
+            Vous avez un projet en tête ou une opportunité ? N'hésitez pas à me contacter !
           </p>
         </div>
 

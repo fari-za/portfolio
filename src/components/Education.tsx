@@ -4,22 +4,17 @@ import { Card } from "@/components/ui/card";
 const Education = () => {
   const education = [
     {
-      degree: "Licence 3 Informatique",
+      degree: "Master Informatique",
+      institution: "",
+      period: "2026 - 2028",
+      description: "En cours de recherche d'alternance pour approfondir mes compétences en Data, Développement et IA",
+    },
+    {
+      degree: "Licence Informatique",
       institution: "CY Cergy Paris Université",
-      period: "2025 - 2026",
+      period: "2023 - 2026",
+      moyenne: "15/20",
       description: "Bases de Données, Probabilités et statistiques, Réseaux, Algorithmique et Structures de données avancées, Introduction à la science des données, Introduction à l'IA, Gestion de projet, Développement Web Avancé",
-    },
-    {
-      degree: "Licence 2 Informatique",
-      institution: "CY Cergy Paris Université",
-      period: "2024 - 2025",
-      description: "Moyenne de 15/20",
-    },
-    {
-      degree: "Licence 1 et 2 Informatique",
-      institution: "Université Mouloud Mammeri de Tizi-Ouzou",
-      period: "2022 - 2024",
-      description: "Moyenne de 14/20",
     },
   ];
 
@@ -58,6 +53,9 @@ const Education = () => {
                         </div>
                         <p className="text-primary font-medium mb-2">{item.institution}</p>
                         <p className="text-muted-foreground">{item.description}</p>
+                        {item.moyenne && (
+                          <p className="text-lg text-primary">Moyenne : {item.moyenne}</p>
+                        )}
                       </div>
                     </div>
                   </Card>

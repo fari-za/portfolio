@@ -35,6 +35,7 @@ const Navigation = () => {
   const navItems = [
     { label: "Accueil", href: "#home" },
     { label: "À propos", href: "#about" },
+    { label: "Compétences", href: "#skills" },
     { label: "Formation", href: "#education" },
     { label: "Projets", href: "#projects" },
     { label: "Expériences", href: "#experience" },

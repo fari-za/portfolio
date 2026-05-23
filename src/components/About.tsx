@@ -31,10 +31,9 @@ const About = () => {
           <div className="animate-slide-up space-y-6">
             <h3 className="text-2xl font-bold">Bienvenue sur mon portfolio</h3>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Étudiante en Licence 3 Informatique à CY Cergy Paris Université, je suis actuellement 
-              à la recherche d'un stage de 2 à 4 mois dans les domaines de la Data, du Développement 
-              ou de l'IT, à partir d'avril 2026 (éventuellement suivi d'une alternance de 2 ans à partir 
-              de septembre 2026).
+              Future étudiante en Master Informatique, je m'intéresse au développement, à la gestion des données et aux nouvelles technologies. 
+              Je recherche actuellement une alternance de 2 ans à partir de septembre 2026 
+              afin de continuer à développer mes compétences et acquérir de l'expérience à travers des projets concrets.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               
