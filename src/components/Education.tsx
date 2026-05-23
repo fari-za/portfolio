@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 const Education = () => {
   const education = [
     {
-      degree: "Master Informatique",
-      institution: "",
+      degree: "Master MIAGE parcours Intelligent Business Informatics",
+      institution: "Université Paris 1 Panthéon-Sorbonne ",
       period: "2026 - 2028",
       description: "En cours de recherche d'alternance pour approfondir mes compétences en Data, Développement et IA",
     },
